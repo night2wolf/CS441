@@ -1,0 +1,14 @@
+Single Thread:
+"Elapsed time: 3765.937343 msecs"
+Two Threads:
+"Elapsed time: 3172.073678 msecs"
+Four Threads:
+"Elapsed time: 3014.603575 msecs"
+Eight Threads:
+"Elapsed time: 3364.365203 msecs"
+Sixteen Threads:
+"Elapsed time: 2887.243915 msecs"
+Thirty-Two Threads:
+"Elapsed time: 2881.272432 msecs"
+Sixty-Four Threads:
+"Elapsed time: 3571.618028 msecs"
