@@ -35,7 +35,7 @@
          (def ct (aget outputlist (int page6)))
          (def comppr (+ 0.15 (* 0.85 (/ y ct))))
          (aset-float pageranklist page6 comppr))))
-;; display the final output list and pageranks
+;; display the final output times and threads
 (spit "output.txt" "Single Thread:\n")
 (spit "output.txt" (with-out-str (time (send (agent 0) (Pagerankcompute 1)))) :append true)
 (spit "output.txt" "Two Threads:\n" :append true)
